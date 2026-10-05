@@ -1,0 +1,15 @@
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #fff1e4; background: #25150e; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 22% 14%, #803f1e, transparent 44%), #25150e; }
+.shell { max-width: 920px; margin: auto; padding: clamp(32px, 8vw, 110px) 24px; }
+.eyebrow { color: #f9b97f; font-size: 12px; font-weight: 700; letter-spacing: .2em; }
+h1 { margin: 30px 0; font-size: clamp(42px, 7vw, 78px); line-height: 1.09; letter-spacing: -.055em; }
+h1 span { color: #ffd198; }
+.intro { max-width: 620px; color: #dcc1aa; line-height: 1.8; }
+.card { margin-top: 50px; max-width: 520px; padding: 32px; border: 1px solid #a0623a; border-radius: 22px; background: #3b2518; box-shadow: 0 20px 60px #160c0980; }
+label { display: block; margin-bottom: 12px; font-size: 14px; color: #efd0b3; }
+input { width: 100%; padding: 14px; border: 1px solid #aa7249; border-radius: 10px; color: #fff; background: #28170f; font: inherit; }
+input:focus { outline: 2px solid #ffc481; outline-offset: 2px; }
+.card p { margin-bottom: 0; color: #f8ddc1; }
+.card strong { display: block; margin-top: 12px; font-size: 40px; color: #ffc481; }
+footer { margin-top: 72px; font-size: 12px; color: #c19a7a; }
